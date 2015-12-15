@@ -5,8 +5,9 @@
 	position: relative;
 }
 #bar{
-	background: #000;
+	background: rgb(25,25,25);
 	height: 260px;
+	position: relative;
 
 }
 #aside{
@@ -40,7 +41,7 @@
 	line-height: 40px;
 	text-align: center;
 	display: inline-block;
-	width: 100px;
+	width: 90px;
 	
 }
 
@@ -54,12 +55,15 @@
 	top: 0;
 	width: 240px;
 	height: 40px;
+	line-height: 40px;
 	color: #777;
 	font-size: 17px;
 }
-
+#nav input:focus{
+	border-bottom: 1px solid #888;
+}
 #nav_ul #move_li{
-	background:#111;
+	background:green;
 	position: absolute;
 	height: 4px;
 	top: 100%;
@@ -75,10 +79,48 @@
 	line-height: 40px;
 	text-align: center;
 	left: 300px;
+	width: 200px;
 	top: 0;
 	border-top: 2px solid #777;
 	border-bottom: 2px solid #777;
 }
 #nav_span strong{
 	font-weight: 600;
+}
+
+#nav_span:hover{
+	border: 2px solid #777;
+		border-top: 0px solid #777;
+	border-bottom: 0px solid #777;
+}
+
+
+#big_pic li{
+	position: absolute;
+	left: 300px;
+	top: 0;
+
+	/*opacity: 0;
+	filter: alpha(opacity=0);*/
+}
+
+#samll_ul{
+	position: absolute;
+	top: 230px;
+	left: 780px;
+	z-index: 2;
+	
+}
+#samll_ul li{
+	height: 8px;
+	margin-left: 3px;
+	display: inline-block;
+	width: 42px;
+	background: green;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+#samll_ul .active{
+	opacity: 1;
+	filter: alpha(opacity=100);
 }
