@@ -11,7 +11,7 @@
 	var abig_li=obig_ul.getElementsByTagName('li');
 	var osmall_ul=document.getElementById('samll_ul');
 	var asmall_li=osmall_ul.getElementsByTagName('li');
-	var bar_bg=['rgb(34,34,34)','#fff','#000','rgb(15,25,25)','rgb(25,25,25)'];
+	var bar_bg=['rgb(34,34,34)','#fff','rgb(15,25,25)','#fff','rgb(25,25,25)'];
 
 	var ool_box=document.getElementById('show_ol');
 	var a_ol_li=ool_box.getElementsByTagName('li');

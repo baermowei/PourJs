@@ -11,7 +11,8 @@
 
 }
 #aside{
-	background:#2B2B2B;
+/*	background:#2B2B2B;*/
+	background: #333;
 	width:240px;
 	height:800px;
 	position: absolute;
